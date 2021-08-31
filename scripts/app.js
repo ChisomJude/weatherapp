@@ -2,7 +2,7 @@
 (function() {
   'use strict';
 
-  var weatherAPIUrlBase = 'https://publicdata-weather.firebaseio.com/';
+ /* var weatherAPIUrlBase = 'https://publicdata-weather.firebaseio.com/';
 
   var app = {
     isLoading: true,
@@ -14,6 +14,7 @@
     addDialog: document.querySelector('.dialog-container'),
     daysOfWeek: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
   };
+  
     /* Initial Data  */
     var injectedForecast = {
         key: 'newyork',
